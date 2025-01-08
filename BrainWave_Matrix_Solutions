@@ -1,1 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GoEco - Green living</title>
+    <link rel="stylesheet" href="styles.css" />
+    <style>
+      body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+      }
+      header {
+        background-color: #4caf50;
+        color: white;
+        padding: 10px 20px;
+        text-align: center;
+      }
+      nav {
+        display: flex;
+        justify-content: center;
+        background-color: #3e8e45;
+      }
+      nav a {
+        color: white;
+        text-decoration: none;
+        padding: 14px 20px;
+      }
+      nav a:hover {
+        background-color: #66bb6a;
+        transition: 0.3s;
+      }
+      .hero-section {
+        background-image: url("eco-living.jpg");
+        background-size: cover;
+        color: white;
+        text-align: center;
+        padding: 100px 20px;
+      }
+      .hero-section h1 {
+        font-size: 3em;
+      }
+      .hero-section p {
+        font-size: 1.2em;
+      }
+      .content-section {
+        padding: 20px;
+        text-align: center;
+      }
+      .content-section h2 {
+        color: #4caf50;
+      }
+      .features {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+      }
+      .feature {
+        max-width: 300px;
+        padding: 10px;
+        margin: 10px;
+        border: 1px solid #ddd;
+        border-radius: 10px;
+      }
+      footer {
+        background-color: #4caf50;
+        color: white;
+        text-align: center;
+        padding: 10px;
+        position: relative;
+        bottom: 0;
+        width: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>GoEco</h1>
+      <p>Join the movement towards a sustainable future</p>
+    </header>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#features">Features</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <section class="hero-section">
+      <h1>Welcome to GoEco</h1>
+      <p>
+        Your go-to platform for eco-friendly living tips and sustainable
+        solutions.
+      </p>
+      <button
+        style="
+          background-color: #66bb6a;
+          border: none;
+          padding: 10px 20px;
+          color: white;
+          font-size: 1em;
+          cursor: pointer;
+          border-radius: 5px;
+        "
+      >
+        Get Started
+      </button>
+    </section>
+    <section id="about" class="content-section">
+      <h2>About Us</h2>
+      <p>
+        GoEco is dedicated to empowering individuals to live sustainably by
+        offering resources, tips, and community support.
+      </p>
+    </section>
+    <section id="features" class="content-section">
+      <h2>Features</h2>
+      <div class="features">
+        <div class="feature">
+          <h3>Eco-Friendly Tips</h3>
+          <p>
+            Discover daily habits to reduce your carbon footprint and live more
+            sustainably.
+          </p>
+        </div>
+        <div class="feature">
+          <h3>Community Forums</h3>
+          <p>
+            Connect with like-minded individuals and share your green journey.
+          </p>
+        </div>
+        <div class="feature">
+          <h3>Sustainable Products</h3>
+          <p>Explore our curated selection of eco-friendly products.</p>
+        </div>
+      </div>
+    </section>
+    <section id="contact" class="content-section">
+      <h2>Contact Us</h2>
+      <p>
+        Have questions or want to learn more? Reach out to us at
+        <a href="mailto:info@goeco.com">info@goeco.com</a>.
+      </p>
+    </section>
+    <footer>
+      <p>&copy; 2025 GoEco. All Rights Reserved.</p>
+    </footer>
+  </body>
+</html>
 
